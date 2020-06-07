@@ -33,10 +33,11 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "/Users/nickhamlin/Documents/new_website/pelican-themes/simple-bootstrap"
+THEME = "../pelican-themes/simple-bootstrap"
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['pelican-ipynb.markup']
 IGNORE_FILES = ['.ipynb_checkpoints']
+IPYNB_USE_METACELL = True
