@@ -5,8 +5,9 @@
 Compiling:  
 `pelican content`  
 `pelican -D content` (debug mode)  
-`pelican content -s publishconf.py`  
-`pelican content -s pelicanconf.py`  
+`pelican content -s pelicanconf.py`  (dev)
+`pelican content -s publishconf.py`  (prod)
+
 
 Running Locally:  
 From inside the `output` folder: `python -m pelican.server` will run a server on [localhost:8000]
