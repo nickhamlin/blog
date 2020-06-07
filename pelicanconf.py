@@ -38,6 +38,6 @@ THEME = "../pelican-themes/simple-bootstrap"
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pelican-ipynb.markup']
+PLUGINS = ['pelican-ipynb.markup', 'liquid_tags.notebook', 'liquid_tags.generic']
 IGNORE_FILES = ['.ipynb_checkpoints']
 IPYNB_USE_METACELL = True
