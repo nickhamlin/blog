@@ -3,8 +3,8 @@
 (the new version)
 
 Compiling:  
-`pelican content`
-`pelican -D content` (debug mode)
+`pelican content`  
+`pelican -D content` (debug mode)  
 `pelican content -s publishconf.py`  
 `pelican content -s pelicanconf.py`  
 
@@ -21,3 +21,5 @@ Useful References
 - https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/
 - https://tvc-16.science/blogopolis-docker.html
 
+Other notes:
+This setup uses the [pelican-jupyter](https://github.com/danielfrg/pelican-jupyter) plugin (via git submodule) to allow for easy building of pages out of notebooks
