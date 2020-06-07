@@ -1,6 +1,6 @@
 # [submodule "plugins/ipynb"]
 # 	path = plugins/ipynb
 # 	url = https://github.com/danielfrg/pelican-jupyter.git
-[submodule "pelican-plugins"]
-	path = pelican-plugins
-	url = https://github.com/getpelican/pelican-plugins
+# [submodule "pelican-plugins"]
+# 	path = pelican-plugins
+# 	url = https://github.com/getpelican/pelican-plugins
