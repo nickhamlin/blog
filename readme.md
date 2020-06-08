@@ -10,7 +10,7 @@ Compiling:
 
 
 Running Locally:  
-From inside the `output` folder: `python -m pelican.server` will run a server on [localhost:8000]
+'pelican -l' will run a server on [localhost:8000]
 
 Deploying:  
 Pushing to master will trigger a github action to automatically p
