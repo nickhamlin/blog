@@ -10,6 +10,8 @@ LABEL "com.github.actions.icon"="eye"
 LABEL "com.github.actions.color"="green"
 
 COPY entrypoint.sh /entrypoint.sh
+COPY requirements.txt /requirements.txt
 RUN chmod +x /entrypoint.sh
+RUN pip install -r requirements.txt
 
 ENTRYPOINT ["/entrypoint.sh"]
