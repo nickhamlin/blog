@@ -1,0 +1,522 @@
+{% extends "base.html" %}
+
+{% block content %}
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	          <!-- li><a class="smoothscroll" href="#resume">Resume</a></li -->
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+           <img class="profile-pic"  src="theme/images/profilepic.jpg" alt="" />
+            <h1 class="responsive-headline">Hi, I'm Nick.</h1>
+            <h3>I’m a data scientist working to help the global aid and philanthopy community use data to
+              make the world a better place.
+            </h3>
+            <ul class="social">
+               <li><a href="mailto:nickhamlin@gmail.com"><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://twitter.com/nicholashamlin"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://github.com/nickhamlin"><i class="fa fa-github"></i></a></li>
+               <li><a href="http://www.linkedin.com/in/nickhamlin/ "><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="skype:nickhamlin?chat"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+
+         <div class="ten offset-1 columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I’m an experienced data wonk here to help social good organizations across the globe maximize their impact.  Nonprofits and social entrepreneurs do great work every day, but many don’t have the resources, tools, or experience to make sense of their data. That’s where I come in. Finding creative ways to make development data accessible, understandable, and actionable for everyone is what gets me out of bed in the morning</p>
+
+            <p>I’ve got a knack for learning new tools to tackle new problems.  Naturally, this comes in handy when making strategic decisions about how best to support 3000+ NGOs in 160+ countries, combatting fraud on a website that processes millions worth of transactions per year, or hacking together new ways of extracting meaning out of the aid sector’s famously complex and messy data.</p>
+
+            <p>When I’m not writing code, crunching numbers, or telling stories with data, I'm a proud folk music street performer, amateur haiku poet, and worm farmer.</p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+                     <a href="/nick_hamlin_resume.pdf" class="button"><i class="fa fa-download"></i>Download Full Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Cool projects I've done:</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="theme/images/portfolio/aidsight.png">
+                        <div id='modal_aidsight' class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>AidSight</h5>
+                              <p>Measuring connections and quality in the aid sector</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+              <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-08" title="">
+                       <img alt="" src="theme/images/portfolio/rootchange.png">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+                         <h5>Root Change Local Systems Analysis Platform</h5>
+                             <p>Understanding local networks in developing communities</p>
+                      </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+             </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                 <div class="item-wrap">
+
+                    <a href="#modal-03" title="">
+                       <img alt="" src="theme/images/portfolio/abtest.png">
+                       <div class="overlay">
+                          <div class="portfolio-item-meta">
+                            <h5>Field Experiments</h5>
+                                <p>Validated learning at GlobalGiving</p>
+                     </div>
+                       </div>
+                       <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+                 </div>
+            </div> <!-- item end -->
+
+            <div class="columns portfolio-item">
+               <div class="item-wrap">
+
+                  <a href="#modal-01" title="">
+                     <img alt="" src="theme/images/portfolio/cop.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                          <h5>Globalgiving Effectiveness Algorithm</h5>
+                               <p>Helping nonprofits listen, act, learn, and repeat</p>
+                    </div>
+                     </div>
+                     <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+
+               </div>
+           </div> <!-- item end -->
+
+           <div class="columns portfolio-item">
+               <div class="item-wrap">
+
+                  <a href="#modal-06">
+                     <img alt="" src="theme/images/portfolio/openag.jpg">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                      <h5>Hacking Open Agriculture Data</h5>
+                           <p>Expanding access and usability in agriculture</p>
+                   </div>
+                     </div>
+                     <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+
+               </div>
+          </div> <!-- item end -->
+
+          <div class="columns portfolio-item">
+             <div class="item-wrap">
+
+                <a href="#modal-05" title="">
+                   <img alt="" src="theme/images/portfolio/nepal3.png">
+                   <div class="overlay">
+                      <div class="portfolio-item-meta">
+                     <h5>Mapping the Nepal Earthquake</h5>
+                         <p>Visualizing disaster recovery</p>
+                  </div>
+                   </div>
+                   <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+
+             </div>
+         </div> <!-- item end -->
+
+         <div class="columns portfolio-item">
+             <div class="item-wrap">
+
+                <a href="#modal-02" title="">
+                   <img alt="" src="theme/images/portfolio/heimdallr.jpg">
+                   <div class="overlay">
+                      <div class="portfolio-item-meta">
+                    <h5>Heimdallr</h5>
+                         <p>Online transaction fraud detection</p>
+                 </div>
+                   </div>
+                   <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+
+             </div>
+        </div> <!-- item end -->
+
+        <div class="columns portfolio-item">
+           <div class="item-wrap">
+
+              <a href="#modal-04" title="">
+                 <img alt="" src="theme/images/portfolio/geb.png">
+                 <div class="overlay">
+                    <div class="portfolio-item-meta">
+                   <h5>Godel, Escher, Blog</h5>
+                       <p>Blogging the nerd bible</p>
+                </div>
+                 </div>
+                 <div class="link-icon"><i class="icon-plus"></i></div>
+              </a>
+
+           </div>
+       </div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="theme/images/portfolio/modals/m-cop.png" alt="" />
+
+         <div class="description-box">
+           <h4>Globalgiving's Social Impact Algorithm</h4>
+           <p>The Globalgiving Effectiveness Framework and associated algorithm
+             is a new approach to increasing social impact and organizational
+             capacity by promoting iterative learning for our 3000+ non-profit
+             partners worldwide.<a href="http://blog.globalgiving.org/2015/07/28/globalgivings-big-bet/">
+             Read more on the <i>GlobalGiving Blog</i></a></p> </p>
+              <!--span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span -->
+         </div>
+
+           <div class="link-box">
+              <!--a href="http://tools.blog.globalgiving.org/2014/04/17/can-globalgiving-help-you-become-more-effective/">Read More</a -->
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+       </div><!-- modal-01 End -->
+
+        <div id="modal-02" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="theme/images/portfolio/modals/m-heimdallr.jpg" alt="" />
+
+         <div class="description-box">
+           <h4>Heimdallr</h4>
+           <p>Named for the mythological Norse watchman
+             ("The guard of heaven, with sleepless eye"), Heimdallr is
+             Globalgiving's online transaction fraud detection and
+             prevention toolkit. With it, I've prevented over $250,000 in
+             fraudulent funds from falling into the wrong hands.
+             <a href="https://philanthropy.com/article/Fraud-Alert-Criminals-Test/233197">
+               Read more in the <i>Chronicle of Philanthropy</i></a>
+             </p>
+         </div>
+
+           <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+       </div><!-- modal-02 End -->
+
+        <div id="modal-03" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="theme/images/portfolio/abtest2.png" alt="" />
+
+         <div class="description-box">
+           <h4>Field Experiments</h4>
+             I spend a lot of time at GlobalGiving focused on designing and carrying out field experiments to help us understand key aspects of our work; everything from how to communicate with our partners most effectively to validating that our work is having the impact we're aiming for.
+           <a href="           https://www.globalgiving.org/learn/ggtestlab/how-cognitive-psychology-and-font-colors-can-drive-donations/">
+             Check out some findings in the GlobalGiving LEARN section</a>
+         </div>
+
+           <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+       </div><!-- modal-03 End -->
+
+        <div id="modal-04" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="theme/images/portfolio/modals/m-geb.png" alt="" />
+
+         <div class="description-box">
+           <h4>Gödel, Escher, Blog</h4>
+           <p>In this year-long writing project, I blogged my way, (Julie and Julia-style)
+             through Douglas Hofstader's famous treatise on complexity in math,computing,
+             art,and music, <i>Gödel,Escher,Bach: An Eternal Golden Braid</i>.
+             <a href="https://godelescherblog.wordpress.com">
+               Read all the posts here.</a>
+           </p>
+         </div>
+           <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+
+       </div><!-- modal-04 End -->
+
+       <div id="modal-05" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="theme/images/portfolio/modals/m-nepal3.png" alt="" />
+
+        <div class="description-box">
+          <h4>Mapping the Nepal Earthquake</h4>
+          <p>A team of colleagues and I put together this data journalism piece six months after the April 2015 earthquake to tell the story of the disaster, response, and feedback from those affected on how long-term recovery was progressing. <a href="http://mids-nepal-earthquake-v2.s3-website-us-east-1.amazonaws.com/">See the whole piece here.</a></p>
+        </div>
+          <div class="link-box">
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div><!-- modal-05 End -->
+
+
+        <div id="modal-06" class="popup-modal mfp-hide">
+
+         <img class="scale-with-grid" src="images/portfolio/modals/openag.jpg" alt="" />
+
+         <div class="description-box">
+           <h4>Hacking Open Agriculture Data</h4>
+           <p>I was invited by the <a href="https://www.interaction.org/project/open-ag-funding/overview">Initiative for Open Ag Funding</a> to join a four-day hackathon in London focused on using data science to make the public agriculture data more accessible and usable. I led a pilot effort to use natural language techniques to turn unstructured project documents into meanginful location data.<a href="https://www.interaction.org/newsroom/blog/location-data-we-can-do-easy-way-or-hard-way"> Read my guest post on the Interaction blog about our work.</a></p>
+         </div>
+           <div class="link-box">
+            <a class="popup-modal-dismiss">Close</a>
+           </div>
+         </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="theme/images/portfolio/modals/aidsight.png" alt="" />
+
+          <div class="description-box">
+            <h4>AidSight</h4>
+            <p>As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href="https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/">Keystone Accountability blog</a> or test it yourself at <a href="http://aidsight.org/">aidsight.org.</a></p>
+          </div>
+            <div class="link-box">
+             <a class="popup-modal-dismiss">Close</a>
+            </div>
+          </div><!-- modal-07 End -->
+
+          <div id="modal-08" class="popup-modal mfp-hide">
+
+           <img class="scale-with-grid" src="theme/images/portfolio/modals/rootchange.png" alt="" />
+
+           <div class="description-box">
+             <h4>Root Change Local Systems Analysis Platform</h4>
+             <p><a href="http://www.rootchange.org/">Root Change</a> is a leader in capacity development for global nonprofits and, with funding from <a href="https://www.usaid.gov/partnership-opportunities/ngo/localworks">USAID's new Localworks program</a>, they've enlisted me to reimagine their signature product, the Local Systems Analysis tool, for better scalability, feedback, and interoperability. The result is a new web platform (built on Flask, D3.js, MongoDB, and NetworkX) that enables large-scale network analysis of international development communities.</p>
+           </div>
+             <div class="link-box">
+              <a class="popup-modal-dismiss">Close</a>
+             </div>
+           </div><!-- modal-08 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                    <li>
+                       <blockquote>
+                          <p>He is one of those rare data guys who cannot just crunch the numbers, but can also make them real, understandable, and usable to the non-data-minded crowd.
+                          </p>
+                          <cite>Britt Lake <br> Chief Program Officer <br> GlobalGiving</cite>
+
+                       </blockquote>
+                    </li> <!-- slide ends -->
+
+                    <li>
+                       <blockquote>
+                          <p>Nick has proven himself to be a tremendous technical asset to our organization.
+                          </p>
+                          <cite>Kevin Conroy <br> Chief Product Officer <br> GlobalGiving</cite>
+
+                       </blockquote>
+                    </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>I have never met someone so patient and diligent in getting to the bottom of thorny problems...everything Nick Hamlin works on winds up better than it was before he touched it.
+                           </p>
+                           <cite>Jen Sigler <br> CFO/COO <br> GlobalGiving</cite>
+
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <!--li>
+                        <blockquote>
+                           <p>There is a significant vein of originality in Nick's thinking.
+                           </p>
+                           <cite>John Thomas <br> Professor of Mechanical Engineering <br> University of Rochester</cite>
+                        </blockquote>
+                     </li--> <!-- slide ends -->
+
+                       <li>
+                        <blockquote>
+                           <p>The instructor [Nick] was near perfect!
+                           </p>
+                           <cite>Anonymous Course Evalution Response <br>
+                            Reliability Prediction Training <br>
+                            Parametric Technology Corp.</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+             <h1><span><br>Get In Touch:
+               <br>
+               <a href=mailto:nickhamlin@gmail.com>nickhamlin at gmail dot com</a></span></h1>
+
+         </div>
+
+         <!-- div class="row">
+
+            <div class="eight columns">
+
+               <!-- form - ->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="theme/images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End - ->
+
+               <!-- contact-warning - ->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success - ->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+        </div >
+
+      </div-- >
+
+   </section> <!-- Contact Section End-->
+
+{% endblock content %}
+
+

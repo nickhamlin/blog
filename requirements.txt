@@ -1,2 +1,2 @@
-pelican
-pelican-jupyter
+pelican == 4.2.0
+pelican-jupyter == 0.10.0
