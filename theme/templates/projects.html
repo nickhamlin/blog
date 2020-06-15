@@ -1,0 +1,19 @@
+{% if not PROJECTS %}
+{% set PROJECTS = [
+  {
+    'shortname':    'aidsight',
+    'title':        'AidSight',
+    'subtitle':     'Measuring connections and quality in the aid sector',
+    'image':        'aidsight.png',
+    'description':  "As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href='https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/'>Keystone Accountability blog</a> or test it yourself at <a href='http://aidsight.org/'>aidsight.org.</a>"
+  },
+  {
+    'shortname':    'foobar',
+    'title':        'Foobar',
+    'subtitle':     'Measuring connections and quality in the aid sector',
+    'image':        'rootchange.png',
+    'description':  "As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href='https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/'>Keystone Accountability blog</a> or test it yourself at <a href='http://aidsight.org/'>aidsight.org.</a>"
+  },
+]
+%}
+{% endif %}

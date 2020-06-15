@@ -1,0 +1,23 @@
+{% if not TESTIMONIALS %}
+{% set TESTIMONIALS = [
+  {
+    'name':  'Kevin Conroy',
+    'title': 'Chief Product Officer',
+    'org':   'GlobalGiving',
+    'text':  'Nick has proven himself to be a tremendous technical asset to our organization.',
+  },
+  {
+    'name':  'Britt Lake',
+    'title': 'CEO',
+    'org':   'Feedback Labs',
+    'text':  'He is one of those rare data guys who cannot just crunch the numbers, but can also make them real, understandable, and usable to the non-data-minded crowd.',
+  },
+  {
+    'name':  'Jen Sigler',
+    'title': 'Former CFO/COO',
+    'org':   'GlobalGiving',
+    'text':  'I have never met someone so patient and diligent in getting to the bottom of thorny problems...everything Nick Hamlin works on winds up better than it was before he touched it.',
+  }
+]
+%}
+{% endif %}
