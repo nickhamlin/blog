@@ -2,10 +2,13 @@
 {% block title %}all posts // {{ super() }}{% endblock title %}
 {% block pagetitle %}all posts{% endblock pagetitle %}
 
+{% block nav %}
+{% include 'static-nav.html' %}
+{% endblock %}
 
 {% block content %}
-<div class="pure-g-r" id="layout">
-    <div class="pure-u-1">
+<div class="row blog" id="layout">
+    <div class="column ten offset-1">
         <div class="content">
             <h1 class="content-subhead">All posts</h1>
             {% for article in dates %}

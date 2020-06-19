@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}{{ article.title|striptags }} // {{ super() }}{% endblock title %}
 
+{% block nav %}
+{% include 'static-nav.html' %}
+{% endblock %}
+
 {% block content %}
-<div class="pure-g-r" id="layout">
+<div class="blog" id="layout">
 
     <div class="pure-u">
         <div class="content">
