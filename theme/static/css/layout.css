@@ -795,12 +795,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* h. Contact Section (technically the in the footer now)
 /* ------------------------------------------------------------------ */
 
 #contact {
    background: #336699;
-   padding-top: 50px;
    padding-bottom: 5px;
    color: #636363;
 }
@@ -839,78 +838,6 @@ call-to-action .button {
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
-
-
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #336699;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 3px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #336699;
-	font-size: 13px;
-}
-#message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
-}
-#message-warning { color: #D72828; }
-#message-success { color: #336699; }
-
-#message-warning i,
-#message-success i {
-   margin-right: 10px;
-}
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
 
 
 /* Twitter Feed */
@@ -972,13 +899,15 @@ footer .copyright  li:first-child:before {
     display: none;
 }
 
-/* social links */
-footer .social-links {
+/* social links 
+NOTE: Weird class name avoids issues with adblockers
+*/
+footer .nick-social-links  {
    margin: 18px 0 30px 0;
    padding: 0;
    font-size: 30px;
 }
-footer .social-links li {
+footer .nick-social-links  li {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -986,16 +915,18 @@ footer .social-links li {
     color: #F06000;
 }
 
-footer .social-links li:first-child { margin-left: 0; }
+footer .nick-social-links li:first-child { margin-left: 0; }
 
-/* Go To Top Button */
-#go-top {
+/* Go To Top Button 
+NOTE: Weird ID name avoids issues with adblockers
+*/
+#nick-go-top {
 	position: absolute;
 	top: -24px;
    left: 50%;
    margin-left: -30px;
 }
-#go-top a {
+#nick-go-top a {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
@@ -1014,7 +945,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#nick-go-top a:hover { background-color: #0F9095; }
 
 
 /* ------------------------------------------------------------------ */
