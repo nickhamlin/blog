@@ -82,19 +82,19 @@
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-               {% for project in PROJECTS %}
+               {% for article in dates %}
 
-               {% if not project.hide %}
+               {% if article.homepage %}
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-{{ project.shortname }}" title="">
-                        <img alt="" src="theme/images/portfolio_tile/{{ project.image }}">
+                     <a href="#modal-{{ article.shortname }}" title="">
+                        <img alt="" src="theme/images/portfolio_tile/{{ article.image }}">
                         <div id='modal_aidsight' class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>{{ project.title }}</h5>
-                              <p>{{ project.subtitle }}</p>
+          					      <h5>{{ article.title }}</h5>
+                              <p>{{ article.summary }}</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
