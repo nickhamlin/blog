@@ -82,8 +82,6 @@
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-               {% from 'projects.html' import PROJECTS with context %}
-
                {% for project in PROJECTS %}
 
                {% if not project.hide %}
@@ -92,7 +90,7 @@
                   <div class="item-wrap">
 
                      <a href="#modal-{{ project.shortname }}" title="">
-                        <img alt="" src="theme/images/portfolio/{{ project.image }}">
+                        <img alt="" src="theme/images/portfolio_tile/{{ project.image }}">
                         <div id='modal_aidsight' class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>{{ project.title }}</h5>
@@ -118,7 +116,7 @@
 
                <div id="modal-{{ project.shortname }}" class="popup-modal mfp-hide">
 
-                  <img class="scale-with-grid" src="theme/images/portfolio/modals/{{ project.image }}" alt="" />
+                  <img class="scale-with-grid" src="theme/images/portfolio_detail/{{ project.image }}" alt="" />
          
                   <div class="description-box">
                     <h4>{{ project.title }}</h4>
