@@ -1,5 +1,5 @@
 Title: Folk Music and Data Science
-Date: 2020-06-14
+Date: 2020-03-04
 Author: Nick Hamlin
 Template: article
 

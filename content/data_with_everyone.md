@@ -2,6 +2,7 @@ Title: Data for Good: What could be better?
 Date: 2020-06-14
 Author: Nick Hamlin
 Template: article
+Homepage: True
 
 
 Here's a video of my talk at DataEdge 2020

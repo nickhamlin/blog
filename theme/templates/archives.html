@@ -12,17 +12,18 @@
         <div class="content">
             <h1 class="content-subhead">All posts</h1>
             {% for article in dates %}
+                {% if not article.hide %}
                 <div class="archive-item">
                     <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author }}">
                         {% if article.author_gravatar %}
                             <img class="avatar" alt="{{ article.author }}" src="{{ article.author_gravatar }}">
                         {% endif %}
                     </a>
-                    <h5 class="archive-date">{{ article.date|strftime('%Y') }}</h5>
-                    <h4 class="archive-date">{{ article.date|strftime('%d %B') }}</h4>
-                    <div class="archive-post"><a href="{{ article.url }}">{{ article.title }}</a></div>
+                    <h4 class="archive-date">{{ article.date|strftime('%B %d, %Y') }}</h4>
+                    <h3 class="archive-post"><a href="{{ article.url }}">{{ article.title }}</a></h3>
                     <p class="archive-meta">{{ article.author }} in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
                 </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
