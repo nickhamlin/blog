@@ -1,0 +1,175 @@
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section - Deprecated as of June 2020 but this CSS may be useful later
+/* ------------------------------------------------------------------ */
+
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    overflow: hidden;
+ }
+ 
+ #resume a, #resume a:visited  { color: #F06000; }
+ #resume a:hover, #resume a:focus { color: #313131; }
+ 
+ #resume h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ #resume h1 span {
+    border-bottom: 3px solid #336699;
+    padding-bottom: 6px;
+ }
+ #resume h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+ }
+ 
+ #resume .header-col { padding-top: 9px; }
+ #resume .main-col { padding-right: 10%; }
+ 
+ .education .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+ 
+ }
+ #resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+ #resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ #resume .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+ 
+ /*----------------------------------------------*/
+ /*	Skill Bars
+ /*----------------------------------------------*/
+ 
+ .bars {
+     width: 95%;
+     float: left;
+     padding: 0;
+     text-align: left;
+ }
+ .bars .skills {
+       margin-top: 36px;
+    list-style: none;
+ }
+ .bars li {
+    position: relative;
+       margin-bottom: 60px;
+       background: #ccc;
+       height: 42px;
+       border-radius: 3px;
+ }
+ .bars li em {
+     font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+     text-transform: uppercase;
+    letter-spacing: 2px;
+     font-weight: normal;
+    position: relative;
+     top: -36px;
+ }
+ .bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+ 
+    margin: 0;
+    padding-right: 24px;
+       background: #313131;
+    display: inline-block;
+       height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+ }
+ 
+ .mysql {
+       width: 75%;
+       -moz-animation: mysql 2s ease;
+       -webkit-animation: mysql 2s ease;
+ }
+ .python {
+       width: 55%;
+       -moz-animation: python 2s ease;
+       -webkit-animation: python 2s ease;
+ }
+ .salesforce {
+       width: 50%;
+       -moz-animation: salesforce 2s ease;
+       -webkit-animation: salesforce 2s ease;
+ }
+ .confluence {
+       width: 90%;
+       -moz-animation: confluence 2s ease;
+       -webkit-animation: confluence 2s ease;
+ }
+ .excel {
+       width: 80%;
+       -moz-animation: excel 2s ease;
+       -webkit-animation: excel 2s ease;
+ }
+ .jquery {
+       width: 50%;
+       -moz-animation: jquery 2s ease;
+       -webkit-animation: jquery 2s ease;
+ }
+ 
+ @-moz-keyframes mysql {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-moz-keyframes salesforce {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes confluence {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-moz-keyframes excel {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ 
+ @-webkit-keyframes mysql {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-webkit-keyframes salesforce {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes confluence {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes excel {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
