@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+from pelican_jupyter import markup as nb_markup
+import yaml
+
+
 AUTHOR = 'Nick Hamlin'
 SITENAME = "Nick Hamlin's Blog"
 SITEURL = ''
@@ -37,7 +41,13 @@ THEME = "./theme"
 
 MARKUP = ('md','ipynb')
 
-from pelican_jupyter import markup as nb_markup
 PLUGINS = [nb_markup]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = ['.ipynb_checkpoints']
+
+# Load custom YAML content for various pages
+with open('./content/projects.yml','r') as project_yml:
+    PROJECTS = yaml.load(project_yml, Loader=yaml.FullLoader)
+
+with open('./content/testimonials.yml','r') as testimonial_yml:
+    TESTIMONIALS = yaml.load(testimonial_yml, Loader=yaml.FullLoader)

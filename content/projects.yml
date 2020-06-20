@@ -1,0 +1,16 @@
+- shortname: globalgiving_impact_study
+  title: GlobalGiving Impact Study
+  subtitle: Evaluating a global crowdfunding community's impact
+  image: globalgiving_impact_study.jpeg
+  description: When GlobalGiving set out to formally evaluate its impact for the first time, I designed and led the execution of a multi-year study to rigorously explore this question that was celebrated as an example for other funders to emulate. Read more in the <a href='https://www.ft.com/content/382b889a-ef13-11e8-89c8-d36339d835c0'>Financial Times</a>
+- shortname: datakind
+  title: Datakind Community Health Impact Practice
+  subtitle: Engineering Scalable Data Quality for the Community Health Sector
+  image: aidsight.png
+  description: As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href='https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/'>Keystone Accountability blog</a> or test it yourself at <a href='http://aidsight.org/'>aidsight.org.</a>
+- shortname: datakind2
+  title: Datakind Community Health Impact Practice
+  subtitle: Engineering Scalable Data Quality for the Community Health Sector
+  image: aidsight.png
+  description: As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href='https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/'>Keystone Accountability blog</a> or test it yourself at <a href='http://aidsight.org/'>aidsight.org.</a>
+  hide: False

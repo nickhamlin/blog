@@ -1,0 +1,25 @@
+- name: Kevin Conroy
+  title: Chief Product Officer
+  org: GlobalGiving
+  text: Nick has proven himself to be a tremendous technical asset to our organization.
+
+- name: Test
+  title: Chief Test Officer
+  org: GlobalGiving
+  text: Something's wrong if you can see this
+  hide: True
+
+- name: Britt Lake
+  title: CEO
+  org: Feedback Labs
+  text: He is one of those rare data guys who cannot just crunch the numbers, but can also make them real, understandable, and usable to the non-data-minded crowd.
+
+- name: Alexis Smart
+  title: Director of Programs
+  org: Root Change
+  text: He is an excellent communicator...I learned a great deal about managing software development from Nick. I found him to be a great coach and teacher, and to work well with a diverse non-technical team.
+
+- name: Jen Sigler
+  title: Former CFO/COO
+  org: GlobalGiving
+  text: I have never met someone so patient and diligent in getting to the bottom of thorny problems...everything Nick Hamlin works on winds up better than it was before he touched it.
