@@ -12,5 +12,6 @@ LABEL "com.github.actions.color"="green"
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 RUN pip install pelican-jupyter
+RUN pip install pyyaml
 
 ENTRYPOINT ["/entrypoint.sh"]
