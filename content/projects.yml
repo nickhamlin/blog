@@ -13,7 +13,7 @@
 - shortname: aidsight
   title: AidSight
   subtitle: Measuring connections and quality in the aid sector
-  image: aidsight.png
+  image: aidsight.jpg
   description: As a capstone project for UC Berkeley's Master of Information and Data Science program, my team and I created a first-of-its-kind platform that identifies and fixes data quality gaps in all International Aid Transparency Initiative (IATI) datasets (10K organizations, 600K projects) using machine learning and data visualization implemented in MongoDB, Scikit-Learn, and D3. AidSight is now in real-world use at Bond, DFID, and other major aid agencies. Read more about AidSight at the <a href='https://keystoneaccountability.org/2016/10/04/development-data-what-is-it-good-for/'>Keystone Accountability blog</a> or test it yourself at <a href='http://aidsight.org/'>aidsight.org.</a>
 
 - shortname: test
@@ -21,13 +21,41 @@
   subtitle: If you can, that's a problem
   image: aidsight.png
   description: None
-  hide: True
+  hide: False
 
 - shortname: pando
   title: Pando
   subtitle: Understanding local networks in developing communities
   image: rootchange.png
   description: <a href='http://www.rootchange.org/'>Root Change</a> is a leader in capacity development for global nonprofits and, with funding from <a href='https://www.usaid.gov/partnership-opportunities/ngo/localworks'>USAID's new Localworks program</a>, they enlisted me to create their signature product. The result is <a href='https://mypando.org/'>Pando</a>, a new web platform (built on Flask, D3.js, MongoDB, and NetworkX) that enables large-scale network analysis of international development communities.
+
+- shortname: foo
+  title: foo
+  subtitle: None
+  image: aidsight.png
+  description: None
+  hide: False
+
+- shortname: geb1
+  title: Godel, Escher, Blog, 1
+  subtitle: None
+  image: geb.png
+  description: None
+  hide: False
+
+- shortname: geb2
+  title: Godel, Escher, Blog, 2
+  subtitle: None
+  image: geb.png
+  description: None
+  hide: False
+
+- shortname: geb
+  title: Godel, Escher, Blog
+  subtitle: None
+  image: geb.png
+  description: None
+  hide: False
 
 - shortname: ethics
   title: 97 things Data Professionals should know about Ethics
@@ -43,10 +71,4 @@
   description: None
   hide: True
 
-- shortname: geb
-  title: Godel, Escher, Blog
-  subtitle: None
-  image: None
-  description: None
-  hide: True
 
