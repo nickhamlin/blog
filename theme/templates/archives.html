@@ -7,12 +7,13 @@
 {% endblock %}
 
 {% block content %}
-<div class="row blog" id="layout">
-    <div class="column ten offset-1">
+
+<section class="blog">
+<div class="row">
+    <div class="column">
         <div class="content">
             <h1 class="content-subhead">All posts</h1>
             {% for article in dates %}
-                {% if not article.hide %}
                 <div class="archive-item">
                     <a href="{{ SITEURL }}/{{ article.author.url }}" title="See posts by {{ article.author }}">
                         {% if article.author_gravatar %}
@@ -23,9 +24,10 @@
                     <h3 class="archive-post"><a href="{{ article.url }}">{{ article.title }}</a></h3>
                     <p class="archive-meta">{{ article.author }} in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
                 </div>
-                {% endif %}
             {% endfor %}
         </div>
     </div>
 </div>
+
+</section>
 {% endblock %}
