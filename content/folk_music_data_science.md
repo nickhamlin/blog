@@ -3,7 +3,7 @@ Date: 2020-03-04
 Author: Nick Hamlin
 Template: article
 Homepage: True
-image: openag.jpg
+image: folk_music_data_science.jpg
 
 This is a new test page
 

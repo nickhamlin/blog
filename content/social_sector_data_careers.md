@@ -3,7 +3,7 @@ Date: 2020-06-14
 Author: Nick Hamlin
 Template: article
 Homepage: True
-image: rootchange.png
+image: placeholder.png
 
 
 

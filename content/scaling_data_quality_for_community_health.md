@@ -1,7 +1,7 @@
-Title: Post 6
+Title: Scaling Data Quality for Community Health
 Date: 2017-05-22
 Category: Posts
 Homepage: True
-image: cop.png
+image: datakind.jpg
 
 Hello World! This is a test
