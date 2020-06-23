@@ -2,6 +2,8 @@ Title: Folk Music and Data Science
 Date: 2020-03-04
 Author: Nick Hamlin
 Template: article
+Homepage: True
+image: openag.jpg
 
 This is a new test page
 

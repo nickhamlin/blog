@@ -73,11 +73,10 @@
       line-height: 46px;
    }
 
-    /* Call to Action Section
+    /* Portfolio Section
    ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
+   .portfolio-item .item-wrap img {
+      height: 150px
    }
 
    /* Contact Section
@@ -255,7 +254,10 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
-   .popup-modal {	max-width: 85%; }
+
+   .portfolio-item .item-wrap img {
+      min-height: 250px
+   }
 
 
    /* Testimonials Section

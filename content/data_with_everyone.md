@@ -2,6 +2,7 @@ Title: Data for Good: What could be better?
 Date: 2020-06-14
 Author: Nick Hamlin
 Template: article
+Image: globalgiving_impact_study2.jpeg
 Homepage: True
 
 
