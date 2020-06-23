@@ -77,7 +77,7 @@
 
          <div class="twelve columns collapsed">
 
-            <h1>Cool projects I've done:</h1>
+            <h1>What I've been up to lately:</h1>
 
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
@@ -87,14 +87,19 @@
                {% if article.homepage %}
 
                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <!-- a href="#modal-{{ article.shortname }}" title="" -->
+                  <div class="item-wrap ">
+                     
+                     <a href="./{{ article.url }}" title="">
+                        
                         <img alt="" src="theme/images/portfolio_tile/{{ article.image }}">
+                        <div class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>{{ article.title }}</h5>
                               <!-- p>{{ article.summary }}</p -->
                         </div>
-                        <!-- </a> -->
+                     </div>
+                        </a> 
+                     
                   </div>
           		</div> <!-- item end -->
                {% endif %}
