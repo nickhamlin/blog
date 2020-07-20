@@ -6,7 +6,7 @@ import yaml
 
 
 AUTHOR = 'Nick Hamlin'
-SITENAME = "Nick Hamlin's Blog"
+SITENAME = "Nick Hamlin"
 SITEURL = ''
 
 PATH = 'content'
