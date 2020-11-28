@@ -11,6 +11,7 @@ LABEL "com.github.actions.color"="green"
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
+RUN apk update && apk add py3-zmq
 RUN pip install pelican-jupyter
 RUN pip install pyyaml
 
