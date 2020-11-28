@@ -9,13 +9,19 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = ''
+SITEURL = 'nickhamlin.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
-# DELETE_OUTPUT_DIRECTORY = True
+CATEGORY_URL = 'garden/{slug}'
+CATEGORIES_SAVE_AS = 'garden'
+ARCHIVES_SAVE_AS = "archives"
+INDEX_SAVE_AS = "index"
+ARTICLE_SAVE_AS = "{category}/{slug}"
+CATEGORY_SAVE_AS = 'garden_files/{slug}'
+ARTICLE_URL = "{category}/{slug}"
+ARTICLE_SAVE_AS = "{category}/{slug}"
+
 
 # Following items are often useful when publishing
 
