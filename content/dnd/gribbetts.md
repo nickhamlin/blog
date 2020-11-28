@@ -1,7 +1,10 @@
 Title: Gribbett's Detective Agency
 Date: 2020-06-22
-Category: Posts
 hide: True
+
+# About
+
+I wanted a way to keep notes, ideas, and links organized when DMing my first DND campaign. Since we'd be playing entirely online anyway, consolidating everything into markdown seemed convenient, so here we are!
 
 # Before you start
 
@@ -15,6 +18,7 @@ hide: True
 
 - [Original Adventure PDF](./gribbetts.pdf) TODO: Figure out how to make this work in pelican
 - [DND Beyond Campaign](https://www.dndbeyond.com/campaigns/877699)
+- [Encounter Builder](https://www.dndbeyond.com/my-encounters)
 - [Random Urban Encounters](http://dndspeak.com/2020/01/100-city-street-encounters/)
 - [Inn patrons](http://dndspeak.com/2018/04/100-inn-patrons/)
 - [Random NPCs](https://docs.google.com/spreadsheets/d/1_ALH5qlenx0dyYhbTSWT46wpPyXz4bvsjPiw_Mlq1ys/edit#gid=2000937218)
@@ -22,18 +26,19 @@ hide: True
 
 # PCs
 
+## Group 1
 - [Deign Torunn](https://www.dndbeyond.com/profile/lpengrin/characters/31639592) - [Dwarf](https://www.dndbeyond.com/races/dwarf) [Barbarian](https://www.dndbeyond.com/classes/barbarian)
 - [Leslie](https://www.dndbeyond.com/profile/bdcwdc/characters/31656126) - [Human](https://www.dndbeyond.com/races/human) [Druid](https://www.dndbeyond.com/classes/druid)
 - [Hixan](https://www.dndbeyond.com/profile/MuggleQuest/characters/31692730) - [Dragonborn](https://www.dndbeyond.com/races/dragonborn) [Bard](https://www.dndbeyond.com/classes/bard)
 - [Wither](https://www.dndbeyond.com/profile/YonHellcat/characters/27384977) - [Fire Genasi](https://www.dndbeyond.com/races/genasi#FireGenasi) [Warlock](https://www.dndbeyond.com/classes/warlock)
 
-# General thoughts and ideas
+## Group 2
+- [Eremon](https://www.dndbeyond.com/profile/sik4yn2hs5/characters/32923510) - Half-elf Sorcerer
+- [Lam](https://www.dndbeyond.com/profile/BenjaminLitoff/characters/33202970) - Human Rogue
+- [Kikies](https://www.dndbeyond.com/profile/Hesheko/characters/33432991) - Kenku Rogue
+- [Renwik](https://www.dndbeyond.com/profile/mgaledc/characters/33717671) - Halfling Rogue
+- [Samudra](https://www.dndbeyond.com/profile/pcray/characters/33450237) - Water Genasi Monk
 
-- Need to establish what the characters know (how much context do they have about the artificers, the great fire, Holstmann's philanthropy, etc.) and why would they know that.
-    - They might not just know this stuff, but have to pull it out of Gribbetts (who originally just hired them to fulfill a missing persons issue). They may not know why Janos is famous, or maybe they're originally told they're looking for someone else but discover they're actually after Janos
-- Make it clear to the party that they should check out these 5 areas because that's what Janos was narrowing things down to.
-- Make the timing clear - they're only contracted for the a short time (ideally a day but an extra one or two might be ok if a long rest is needed). If they don't find Janos quickly (e.g. before midnight or something) then Gribbetts can't guarnantee their pay or safety
-- How much do the party know about geography of waterdeep? If you told them about "the shipline" would they know what that was? If not, who will tell them?
 
 ## General waterdeep context
 
@@ -58,27 +63,31 @@ hide: True
 
 Welcome to Waterdeep, the sprawling metropolis leaned up against the edge of the Sword Coast. Whether true, apocryphal, or outright myth, the stories one could tell about this city are many, but our particular adventure begins in the aftermath of the Great Fire.
 
-[*Tempo builds*]
+[*Tempo builds - hit at 0:35*]
 
-Long had tensions simmered before the clash between the Shipwrights Association and the Guild of Theives, Tricksters, and Beggars, two rival factions vying for political control, boiled over into full-blown warfare. Ostensibly a trade group for the craftsman building and maintaining the multitude of watercraft that ply the seas just offshore, the Shipwrights had in fact been guarding a more sinister role: the public front for the Artificer's Cult.
+Long had tensions simmered before the clash between the Shipwrights Association and the Guild of Thieves, two rival factions vying for de facto political control, boiled over into full-blown warfare. Ostensibly a trade group for those responsible for building and maintaining the multitude of watercraft that ply the seas just offshore, the Shipwrights had in fact been guarding a more sinister secret identity as the public front for the Artificer's Cult.
 
-[*Lands on phrase*]
+[*Lands on phrase -  1:03*]
 
-The artificers, a shadowy organization whose unique skills blur the lines of magic and engineering, had attempted to finally eliminate their primary opposition, the Guild of Thieves. Unfortunately for the artificers, thieves are in the business of knowing things befor they happen, and the Guild was well prepared for the artificers assault. The fighting came to a head at the cult's headquarters: the house of the artificers, during which the their secret weapon, a captive black dragon, escaped its confines and laid indiscriminate waste to everything in reach of its fiery breath, leaving swaths of the city in smoldering ruin before winging off beyond the horizon.
+The artificers, a shadowy organization whose unique skills blur the lines of magic and engineering, had attempted to finally eliminate the Guild of Thieves, their primary opposition. Unfortunately for the artificers, thieves are in the business of knowing things befor they happen, and the Guild was well prepared for the artificers assault. The fighting came to a head at the cult's headquarters: the house of the artificers, during which their secret weapon, a captive black dragon, escaped its confines and laid indiscriminate waste to everything in reach of its fiery breath, leaving swaths of the city in smoldering ruin before winging off beyond the horizon.
 
-In the wake of the Fire, large portions of the population find themselves without shelter and have relied on the benevolence of the Waterdavian philanthopic community to rebuild their lives. Like most people in this city, it's hard to know if these wealthy donors actually mean well or if their generosity is simply a means to some more pragmatic end, but regardless, their donations have truly helped stablize the lives of many. And, with the artificers cult no longer a factor, things have slowly begun to return to normal, if such a thing exists in Waterdeep.
+In the wake of the Fire, large portions of the population find themselves without shelter and have relied on the benevolence of the Waterdavian philanthopic community to rebuild their lives. Like most people in this city, it's hard to know if these wealthy donors actually mean well or if their generosity is simply a means to some more pragmatic end, but regardless, their donations have truly helped stablize the lives of many. And, with the Artificers cult no longer a factor, things have slowly begun to return to normal, if such a thing exists in Waterdeep.
 
 We begin in one of the buildings that survived the fire: The Truculent Toad Home for Day Laborers. In this divey mildew-riddled hulk, travelers to Waterdeep come in search of a cheap bed and a days wages performing all manner of odd jobs for all manner of employers, who post bulletins on the walls, shout opportunities in from the street, or, ask the management to "send over a few folks". Today, you're those folks.
 
-Your attempts to find work in this city and odd jobs you've been doing during your time living at the Toad have brought you to the attention of the Beggar King, Janos Meer. This morning, you each found a card with his mark outside your lodging rooms. There was no other message. None is needed. You are summoned to the Beggar Court.
+Your attempts to find work in this city and odd jobs you've been doing during your time living at the Toad have brought you to the attention of the head of the Guild of Thieves: The Beggar King himself - Janos Meer. This morning, you each found a card with his mark outside your lodging rooms. There was no other message. None is needed. You are summoned to the Beggars' Court.
 
-Deep in the sprawling tunnels and sewers beneath the city’s streets, thieves and beggars ply and prepare their trades under the watchful eye of the Beggar King. At least this is usually the case - Janos normally cuts a conspicuous figure from the wide-open doors of his shambling offices. But today, the four of you arrive to find those doors closed fast, and the ground floor of his operation almost abandoned.
+Deep in the sprawling alleys and winding streets of the city, thieves and beggars ply and prepare their trades under the watchful eye of the Beggar King.
 
-You've seen each other passing through the main dining room and hallways at the Toad, but haven't done more than exchange pleasantries, much less names. You're a motley bunch: a  reptilian figure with a sonorous voice who looks to have a bit of dragon in their ancestry, a burly dwarf with a thousand-yard stare and a quiet streak to match, a older man who keeps trying to start conversations with passing stray cats, and a woman with a reddish complexion and a fiery glint in her eye.
+[*Hit at 3:26 - when first incarnation of final phrase starts*]
+
+At least this is usually the case - Janos normally cuts a conspicuous figure from the wide-open doors of his shambling office. But today, the five of you arrive to find those doors closed fast, and the ground floor of his operation almost abandoned.
+
+You've seen each other passing through the main dining room and hallways at the Toad, but haven't done more than exchange pleasantries, much less names. You're a motley bunch: a half-elf who might have a bit of dragon in their ancestry, a woman with a bluish complexion and hands wrapped for a fight, and a shady-looking trio: a feather-covered avian figure, a halfling in a pirate hat, and a human with a thousand-yard stare.
 
 [*Pause timing here if needed*]
 
-So you wait, and to pass the time, you introduce yourselves:
+So you wait on the steps outside Meer's office, and to pass the time, you introduce yourselves to each other:
 
 ## Post-intro additional narration
 
@@ -98,7 +107,7 @@ The office isn't huge, and it's a mess and smells a bit funny (see text descript
 
 It's a perfect study in conspiracy theorist clichés: an overflowing desk, pitchers of now- cold coffee, and a map of the city laid out on his desk, covered in a mess of notes, etchings, pins, and string. This map tracks Janos’s recent investigations into both the collapse of the Artificers and the corruption of the Shipwrights Guild—a criminal fraternity sprung out of the city’s Order of Master Shipwrights.
 
-The corrupt Shipwrights have long been a thorn in Meer’s side, and have been in turmoil since the death of their leader, the werewolf Albrecht Rumsfeld. 
+The corrupt Shipwrights have long been a thorn in Meer’s side, and have been in turmoil since the death of their leader, the werewolf Albrecht Rumsfeld.
 
 Beyond the map, the office holds little of note. The wall opposite the desk features a truly repulsive example of the local art scene in a gaudy frame. (Sort of a sad, smiling child on a boat. But he’s maybe . . . an angel?) Behind the picture is a locked wall safe.
 
@@ -124,7 +133,7 @@ It is a time of rebuilding in the city. A character who succeeds on an Intellige
 4. “I saw Alexei Holstmann last week in a tavern, shouting the entire room drinks for the night. As if it wasn’t anything.”
 5. “There’s tension between the Shipwrights and the Beggar King. No one really knows who’s in charge of the guild since Albrecht Rumsfeld died. Seems that Janos Meer is none too trusting of whoever it is, though.”
 6. “The Shipwright’s Guild? Everyone knows they’re actually a secret society operated out the back of the Shady Dock tavern. The guild’s leader, Albrecht Rumsfeld, was an emerging player in the underworld before he was killed. And it’s whispered that he was a werewolf to boot.”
-7. “Those glittermen guards the Artificers built might be shiny, but the rusting hulks on every corner are made of worthless alloy. It’s not surprising they didn’t catch on. Word is they couldn’t even operate down at the docks without seizing up. Something about all that salt water.”
+7. “Those glittermen guards the Artificers built might be shiny, but I heard the rusting hulks are made of worthless alloy. Word is they couldn’t even operate down at the docks without seizing up. Something about all that salt water.”
 8. “I was talking to someone at the Shady Dock tavern, used to be a captain. Told me that every single one of the ‘derelict’ ships abandoned on the Shipline is still true seaworthy.”
 
 # Act 2 - The streets
@@ -165,6 +174,8 @@ A successful DC 14 Dexterity check using thieves’ tools opens the safe. Contra
 
 [Soundtrack 1 (guitar)](spotify:track:0D1DLjgktbmqpq0JAcbNrl)
 [Soundtrack 2 (gamelan)](spotify:track:4vBwWjvkIy6ftQw6SyNRsi)
+
+[Encounter](https://www.dndbeyond.com/combat-tracker/56a6d3fc-a553-41e2-83d1-f7edfdc0c3d2)
 
 Changes to text as written:
 
@@ -226,9 +237,25 @@ Instead of a big manor, Lexi lives in an extremely trendy row home near the whar
 
 Stat blocks for commoners and mastiffs (who all live in the yard). Could replace some mastiffs with additional humans - perhaps they could have some magic or extra juice (since Lexi would probably hire expensive help)
 
+### Group 1 Custom Additions
+
+- There are 4 people that the party is aware of: McElroy (asleep), the dog guy (unknown), and two housekeepers (overheard falling asleep)
+- Roll initiative to start (For all PCs and NPCs). There are 10 rounds that will happen before everyone who is sleeping wakes up.
+- If McElroy wakes up, he will run out into the street screaming that there are thieves in his house. This will attract the attention of the toughs outside who have been following the party since they left the Shady Dock (see ambush).
+- If they get out of the house without a confrontation, the ambush will happen in the street on the way to the next place
+- There is an additional housekeeper upstairs who remains awake. She will scream, and run and hide in the second bedroom under the bed as soon as she encounters any PC. She doesn't know anything interesting.
+- If substantial noise is made, the dog guy will hear it and start rushing in to investigate. If it's really loud, he'll move quickly and leave the door open. The mastiffs will follow and attack. 
+
+There are three rooms upstairs. The study is at the top of the stairs. The master bedroom is next to it, and the servants quarters are at the end of the hall above the entry way.
+
+If the characters get into the study, they see it dominated by a giant scale model of the Shipline and the commodore’s public works in the district. A successful DC 18 Intelligence (Investigation) check notes that the miniature of one of the warships has hairline hinges
+and opens up, revealing a cavity holding a signet ring bearing the sigil of the Artificers. (Depending on the speed with which they make this check, they might have to do it with disadvantage.)
+
 ## Ambush (at the third location)
 
 While the characters have been poking their noses into Lexi Holstmann’s business, some of the commodore’s associates have become aware of their activities. At the end of the third bell, those associates attempt to dissuade the characters from making any further inquiries.
+
+[Encounter](https://www.dndbeyond.com/combat-tracker/aaeaffde-6a58-42ad-be59-d98c8a67ae6a)
 
 After the adventurers have investigated their third location, but before they leave that location, one [scout](https://www.dndbeyond.com/monsters/scout) and three [guards](https://www.dndbeyond.com/monsters/guard) arrive. The guards attempt to sneak up on the party from concealed ambush points while their scout leader approaches the characters, warning them to back off of their investigation.
 
@@ -242,6 +269,8 @@ the unmistakable sigil of the Artificers. One also bears a chit of receipt of pa
 # Act 3 - The Shipline
 
 Play as written
+
+[Encounter](https://www.dndbeyond.com/combat-tracker/147a6f10-56c9-4dae-bbf9-98ee36668215)
 
 ## Soundtrack
 

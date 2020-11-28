@@ -1,6 +1,5 @@
 Title: Data people should strive to be folk singers, not rock stars
 Date: 2020-03-04
-Author: Nick Hamlin
 Template: article
 Homepage: True
 image: folk_music_data_science.jpg
@@ -22,3 +21,5 @@ In addition, I spent probably more time than I needed to thinking of different m
 <div style="text-align:center;">
 <iframe src="https://open.spotify.com/embed/playlist/7Ljk1SUg9paa6zhlgDynUr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
+
+<br>

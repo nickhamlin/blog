@@ -1,6 +1,5 @@
 Title: Resources for social sector data careers
 Date: 2020-06-14
-Author: Nick Hamlin
 Template: article
 Homepage: True
 image: placeholder_1.jpg

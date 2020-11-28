@@ -1,0 +1,47 @@
+
+{% extends "base.html" %}
+
+
+{% block nav %}
+{% include 'static-nav.html' %}
+{% endblock %}
+
+{% block content %}
+<section class="blog">
+<div class="row" id="layout">
+    <div class="column ten offset-1">
+
+        <div class="content">
+        <section>
+            <h1>Welcome to the Garden!</h1>
+
+            Inspired by others who have seeded <a href=https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet> own digital gardens </a>
+            with all manner of ideas, stubs, random thoughts, and minutia, I've decided to cultivate my own. No promises of quality or coherence here!
+
+            <dl>
+            {% for category, articles in categories %}
+            <dd><a href="{{ SITEURL }}/{{ category.url }}">
+                
+                <div class="content-title-wrap">
+                    <h2 class="category-title">
+                        <a class="category-title-link" href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}">{{ category }}</a>
+                        ({{ articles|count }}) </h2> 
+            
+                </div>
+                </a>
+            </dd>
+            {% endfor %}
+            </dl>
+        </section>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+</section>
+{% endblock %}
