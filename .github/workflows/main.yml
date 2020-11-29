@@ -15,8 +15,12 @@ jobs:
     - name: Build Pelican
       uses: ./.github/action-pelican
     
+    # We have to sync to s3 in chunks to ensure we can set the proper content-types for different files
+    # If we don't, S3 won't load them properly - this is very dumb!
     # https://github.com/marketplace/actions/s3-sync
-    - name: sync to s3
+
+    # This first step does most of the work, and is the only one with the --delete flag
+    - name: sync most content to s3
       uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --content-type 'text/html' --exclude 'theme/css/*' --exclude 'theme/js/*'
@@ -27,7 +31,7 @@ jobs:
         AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
         SOURCE_DIR: 'output'      # optional: defaults to entire repository
 
-    - name: sync to s3
+    - name: sync CSS to s3
       uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --exclude '*' --content-type 'text/css' --include 'theme/css/*'
@@ -35,10 +39,10 @@ jobs:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-        SOURCE_DIR: 'output'      # optional: defaults to entire repository
+        AWS_REGION: 'us-east-1'
+        SOURCE_DIR: 'output'
 
-    - name: sync to s3
+    - name: sync JS to s3
       uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --exclude '*' --content-type 'text/js' --include 'theme/js/*'
@@ -46,5 +50,5 @@ jobs:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-        SOURCE_DIR: 'output'      # optional: defaults to entire repository
+        AWS_REGION: 'us-east-1' 
+        SOURCE_DIR: 'output'
