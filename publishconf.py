@@ -13,13 +13,13 @@ SITEURL = ''
 RELATIVE_URLS = False
 
 
-CATEGORY_URL = 'garden/{slug}'
+CATEGORY_URL = 'garden-category/{slug}'
 CATEGORIES_SAVE_AS = 'garden'
 ARCHIVES_SAVE_AS = "archives"
 INDEX_SAVE_AS = "index"
 ARTICLE_SAVE_AS = "{category}/{slug}"
-CATEGORY_SAVE_AS = 'garden_files/{slug}'
-ARTICLE_URL = "{category}/{slug}"
+CATEGORY_SAVE_AS = 'garden-category/{slug}'
+ARTICLE_URL = "{slug}"
 ARTICLE_SAVE_AS = "{category}/{slug}"
 
 
