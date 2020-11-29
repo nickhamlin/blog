@@ -28,4 +28,4 @@ ARTICLE_URL = "{slug}"
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "G-PYELVTFVDP"
