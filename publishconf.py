@@ -12,15 +12,17 @@ from pelicanconf import *
 SITEURL = ''
 RELATIVE_URLS = False
 
-
-CATEGORY_URL = 'garden-category/{slug}'
-CATEGORIES_SAVE_AS = 'garden'
+# Strip HTML extensions because S3...
 ARCHIVES_SAVE_AS = "archives"
 INDEX_SAVE_AS = "index"
-ARTICLE_SAVE_AS = "{category}/{slug}"
+
+# Garden-category must be separate since /garden is now a file, not a directory
+CATEGORY_URL = 'garden-category/{slug}'
 CATEGORY_SAVE_AS = 'garden-category/{slug}'
+CATEGORIES_SAVE_AS = 'garden'
+
+ARTICLE_SAVE_AS = "{slug}"
 ARTICLE_URL = "{slug}"
-ARTICLE_SAVE_AS = "{category}/{slug}"
 
 
 # Following items are often useful when publishing
