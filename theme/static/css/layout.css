@@ -658,3 +658,8 @@ NOTE: Weird ID name avoids issues with adblockers
    line-height: 30px;
    color: #7A7A7A;
 }
+
+.blog li {
+   list-style-type: disc;
+   margin-left: 20px;
+}
