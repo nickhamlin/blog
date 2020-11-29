@@ -18,14 +18,18 @@ New posts should be added in the `content` directory and organized into subdirec
 
 - `Title`: Post title, lower-skewer-case version will be used as the url
 - `Date`: Should be in MMMM-YY-DD format and will determine order on `archives` page
-Author: Nick Hamlin
-- `Template`: Should usually `article`, except in rare situations that haven't really come up yet
+- `Template`: Should usually be `article`, except in rare situations that haven't really come up yet
 - `Homepage`: if `True`, then the post will appear on the main portfolio page
-- `image`: Name of file in `theme/static/images` to use as homepage tile
+- `image`: Name of file in `theme/static/images` to use as homepage tile. Only required for posts appearing on the homepage.
 
-Metadata not yet implemented:
+Metadata not yet implemented/confirmed functional:
 
 - `Tags`
+- `Status`
+
+Metadata deliberately not used:
+
+- `Author`
 
 ## Running Locally
 

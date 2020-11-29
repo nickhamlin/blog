@@ -34,8 +34,9 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-# # No need to set categories manually
+# No need to set categories manually
 USE_FOLDER_AS_CATEGORY = True
+DEFAULT_CATEGORY = 'random'
 
 # Use "garden" instead of the default "categories" 
 CATEGORY_URL = 'garden/{slug}'
