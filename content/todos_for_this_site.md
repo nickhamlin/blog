@@ -4,10 +4,16 @@ Template: article
 
 Last Updated: 2020-11-29
 
+## Improvements
+
 - Audit page load time and make optimizations accordingly
     - Shrink unnecessarily large images - DONE
     - Preload CSS - DONE
     - Remove unnecessary JS/CSS
 - Consider whether or not implementing tags is worth it. Would it be useful to have/actually add something new?
 - Audit CSS, remove old/unnecessary code
+
+## Issues
+
 - Fix problem with extra vertical space going into the footer instead of main page body
+- "Back to top" button doesn't work without a #home anchor

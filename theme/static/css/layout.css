@@ -110,17 +110,17 @@ header .social li a:hover { color: #F06000; }
 
 /* scrolldown link */
 header .scrolldown a {
+	background-color: #fff;
    position: absolute;
    bottom: 30px;
    left: 50%;
-   margin-left: -29px;
-   color: #fff;
+   margin-left: -25px;
+   color: #525252;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #ebeeee;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -628,7 +628,7 @@ NOTE: Weird ID name avoids issues with adblockers
    transition: all 0.2s ease-in-out;
 
    color: #fff;
-   font-size: 21px;
+   font-size: 40px;
    line-height: 60px;
  	border-radius: 100%;
 }
