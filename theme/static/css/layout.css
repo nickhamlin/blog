@@ -150,6 +150,7 @@ header .scrolldown a:hover { color: #F06000; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #336699;
 }
 .opaque { background-color: #336699; }
 
@@ -520,7 +521,7 @@ ul#nav li.current a { color: #F06000; }
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-/*#contact h1 span { display: none; }*/
+
 #contact h1:before {
    font-family: 'FontAwesome';
    /*content: "\f0e0";*/
@@ -646,7 +647,6 @@ NOTE: Weird ID name avoids issues with adblockers
    width: 100%;
 }
 
-/* .blog a, .blog a:visited  { color: #fff; } */
 .blog a:hover, .blog a:focus { color: #F06000; }
 
 .blog h2 {
